@@ -30,7 +30,7 @@ Weights and Importance Extraction
 Execute the provided shell script weights_importance_extraction.sh to extract feature weights (w1.csv, w2.csv, ..., wn.csv) and importance (i_rf1.csv, i_rf2.csv, ..., i_rfn.csv) from the simulation datasets.
 Combining PRS, SVM, RF, DL
 
-Run the R script combine_prs.r to combine PRS, SVM, RF, and DL results into a single CSV file prs_5K.csv.
+Run the R script combine_prs.r to combine PRS, SVM, RF, and DL results into a single CSV file prs.csv
 Nextflow Workflow
 
 A Nextflow workflow is provided to automate the execution of these steps. Create a Nextflow script (e.g., my_workflow.nf) and paste the provided code.
